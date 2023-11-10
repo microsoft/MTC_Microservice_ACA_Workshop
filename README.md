@@ -1,15 +1,18 @@
-# Project
+## Sample for the Build your first microservice in .NET learn module
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+Microservice applications are composed of small, independently versioned, and scalable customer-focused services that communicate with each other over standard protocols with well-defined interfaces. Each microservice typically encapsulates simple business logic, which you can scale out or in, test, deploy, and manage independently.  Smaller teams develop a microservice based on a customer scenario and use any technologies that they want to use. This module will teach you how to build your first microservice with .NET.
 
-As the maintainer of this project, please make a few updates:
+In order to run the code in this repo as a microservice, please complete the [Build your first microservice in .NET](https://docs.microsoft.com/learn/modules/dotnet-microservices).
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
-- Change Test
+### Steps to run
+
+1. You will need to compete the **Dockerfile** in the backend folder.
+2. Craete Azure Pipeline and Build using the Dockerfile
+3. Push the docker image into Azure Container Registry
+4. Create Azure Container App Environment
+5. Create Azure Container App and deploy the image
+
+Check out the Learn module to find out all about [Building your first microservice in .NET](https://docs.microsoft.com/learn/modules/dotnet-microservices).
 
 ## Contributing
 
